@@ -328,3 +328,9 @@ h6 {
     float: left;
   }
 }
+
+@media (max-width:800px) {
+  #overview h2 {
+    font-size: 1.7em;
+  }
+}
