@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
 * {
   margin:0px;
   padding:0px;
@@ -70,7 +70,7 @@ header #logo span {
   text-decoration: underline;
 }
 
-#about > a:not(#FAQ) {
+#about > a:not(#gallery) {
   margin-left: 4%;
 }
 /* стили для фикс шапки*/
@@ -330,13 +330,20 @@ h6 {
 
 #gallery {
   width: 100%;
+<<<<<<< HEAD
 
   background-image: url(https://images.wallpaperscraft.ru/image/maki_tsvety_krasnyj_144080_3840x2400.jpg);
   background-blend-mode: multiply;
+=======
+  background-image:url(https://ae01.alicdn.com/kf/HTB1Da.bNFXXXXa1aXXXq6xXFXXX2/12ft.jpg_640x640.jpg);
+  background-blend-mode: multiply;
+  background-color: : #000000;
+>>>>>>> 0a6dd1e69b5c514e9133ef1a9eff02d6580db1a0
   background-size: cover;
   text-align: center;
   color: #3c3c3c;
   font-size: 3em;
+<<<<<<< HEAD
   max-height: none;
 }
 #gallery h1 {
@@ -351,11 +358,25 @@ h6 {
   #gallery {
     font-size: 2.5em;
     max-height: none;
+=======
+}
+
+#gallery h7 {
+  padding-top: 40%;
+  color: #3c3c3c;
+}
+
+@media (min-width: 1001px) {
+  #gallery {
+    font-size: 2.5em;
+    height: 1000px;
+>>>>>>> 0a6dd1e69b5c514e9133ef1a9eff02d6580db1a0
   }
 }
 @media (max-width: 1000px) and (min-width:651px) {
   #gallery {
     font-size: 2em;
+<<<<<<< HEAD
     }
 }
 @media (max-width: 650px) {
@@ -368,5 +389,15 @@ h6 {
   #gallery {
     font-size: 1.3em;
     padding-top: 40%;
+=======
+    height: 600px;
+  }
+}
+@media (max-width: 650px) {
+  #gallery {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 400px;
+>>>>>>> 0a6dd1e69b5c514e9133ef1a9eff02d6580db1a0
   }
 }
