@@ -27,7 +27,8 @@ header #logo {
 header #logo span {
   font-size: 1.7em;
   line-height: 45px;
-  margin-left: 40px;
+  margin-left: 5px;
+  padding-bottom: 5px;
   font-family: 'Rubik', serif;
 }
 
@@ -68,7 +69,7 @@ header #logo span {
 #about > a {color: #000}
 
 #about > a:hover {
-  color: red;
+  color: yellow;
   text-decoration: underline;
 }
 
@@ -78,7 +79,7 @@ header #logo span {
 /* стили для фикс шапки*/
 .fixed {
   z-index: 5000;
-  background-color: #fff;
+  background-color:#008080;
   border-bottom: 1px solid silver;
 }
 
@@ -86,8 +87,8 @@ header.fixed #logo {
   color: #343434;
 }
 
-.fixed #about a {color: #343434;}
-.fixed #about a:hover {color: #7c7c7c;}
+.fixed #about a {color: #fff;}
+.fixed #about a:hover {color: #000;}
 
 #top {
   width: 100%;
@@ -343,42 +344,45 @@ h6 {
   background-size: cover;
   text-align: center;
   color: #3c3c3c;
-  font-size: 2.2em;
+  font-size: 2em;
   max-height: none;
 }
+
 #gallery h1 {
+  font-family: 'Rubik', serif;
+  color: #0a0a0a;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-#gallery h3 {
-  color: #3c3c3c;
-  padding-bottom:2%;
+@media (max-width: 900px){
+#gallery h1 {
+  padding-top: 10%;
+  font-size: 1.5em!important;
 }
-@media (min-width: 1001px) {
-  #gallery {
-    font-size: 2.5em;
-    max-height: none;
 }
 
-#gallery h7 {
-  padding-top: 40%;
-  color: #3c3c3c;
-}
-
-@media (max-width: 1000px) and (min-width:651px) {
-  #gallery {
-    font-size: 1.5em;
+@media (max-width: 700px){
+  #gallery h1 {
+    font-size: 1.2em!important;
+    padding-top: 18%;
     }
 }
-@media (max-width: 650px) and (min-width:551px)  {
-  #gallery {
-    font-size: 1.3em;
-    padding-top: 15%;
-  }
+@media (max-width: 460px){
+  #gallery h1 {
+    font-size: 1em!important;
+    padding-top: 30%;
+    }
 }
-@media (max-width: 550px) and (min-width:250px) {
-  #gallery {
-    font-size: 0.8em;
-    padding-top: 40%;
-  }
+@media (max-width: 400px){
+  #gallery h1 {
+    font-size: 1em!important;
+    padding-top: 50%;
+    }
+}
+@media (max-width: 350px){
+  #gallery h1 {
+    font-size: 1em!important;
+    padding-top: 60%;
+    }
 }

@@ -9,8 +9,10 @@
 </head>
 <body>
   <header>
-    <div id="logo" onclick="slowScroll('#top')">
+    <div id="logo" onclick=back()>
+   <img src="img/logo.jpg" alt="">
    <span>Handyman</span>
+
 
    </div>
 
@@ -33,7 +35,7 @@
 <div id="main">
   <div class="intro">
     <h2>Наши услуги помогут вам!</h2>
-    <span> Большой выбор услуг от замены крана , до установки солночных батарей </span>
+    <span> Большой выбор услуг от замены крана , до установки солнчных батарей </span>
   </div>
   <div class="text">
     <span>  Текст (от лат. textus — ткань; сплетение, сочетание) — зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность символов.
@@ -112,6 +114,9 @@
      else
      $("header").attr("class","fixed");
   })
+  function back() {
+    window.location="index.html"
+  }
     </script>
 
 </body>
