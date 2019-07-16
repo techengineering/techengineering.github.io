@@ -28,7 +28,6 @@ header #logo span {
   font-size: 1.7em;
   line-height: 45px;
   margin-left: 5px;
-  padding-bottom: 5px;
   font-family: 'Rubik', serif;
 }
 
@@ -385,4 +384,17 @@ h6 {
     font-size: 1em!important;
     padding-top: 60%;
     }
+}
+
+@media (max-width: 700px){
+#form_input textarea,#form_input input {
+float: left;
+  margin-bottom: 5px;
+  width: 160%;
+  padding: 10px 10%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
 }
