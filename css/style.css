@@ -1,4 +1,3 @@
-ПЕНИС!
 @import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
 * {
   margin:0px;
@@ -71,7 +70,7 @@ header #logo span {
   text-decoration: underline;
 }
 
-#about > a:not(#FAQ) {
+#about > a:not(#gallery) {
   margin-left: 4%;
 }
 /* стили для фикс шапки*/
