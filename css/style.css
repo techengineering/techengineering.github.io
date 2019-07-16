@@ -329,11 +329,44 @@ h6 {
 }
 
 #gallery {
-  background-image:url(https://ae01.alicdn.com/kf/HTB1Da.bNFXXXXa1aXXXq6xXFXXX2/12ft.jpg_640x640.jpg);
-  background-size: cover;
-  background-blend-mode: multiply;
-  background: #ccc;
   width: 100%;
-  font-size: 2em;
+
+  background-image: url(https://images.wallpaperscraft.ru/image/maki_tsvety_krasnyj_144080_3840x2400.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
   text-align: center;
+  color: #3c3c3c;
+  font-size: 3em;
+  max-height: none;
+}
+#gallery h1 {
+  padding-top: 5%;
+}
+
+#gallery h3 {
+  color: #3c3c3c;
+  padding-bottom:2%;
+}
+@media (min-width: 1001px) {
+  #gallery {
+    font-size: 2.5em;
+    max-height: none;
+  }
+}
+@media (max-width: 1000px) and (min-width:651px) {
+  #gallery {
+    font-size: 2em;
+    }
+}
+@media (max-width: 650px) {
+  #gallery {
+    font-size: 1.3em;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 450px) and (min-width:200px) {
+  #gallery {
+    font-size: 1.3em;
+    padding-top: 40%;
+  }
 }
