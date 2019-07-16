@@ -43,16 +43,18 @@ header #logo span {
     width: 67%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 400px) and (min-width: 300px) {
   #logo {
     margin-top: 15px;
     float: left;
+    margin-left: 15%;
     width: 100%;
     font-size: 1.1em;
   }
   #about {
     float:left;
-    width: 100%;
+    width: 67%;
+    margin-left: 15%;
 }
 }
 
@@ -341,7 +343,7 @@ h6 {
   background-size: cover;
   text-align: center;
   color: #3c3c3c;
-  font-size: 3em;
+  font-size: 2.2em;
   max-height: none;
 }
 #gallery h1 {
@@ -363,32 +365,20 @@ h6 {
   color: #3c3c3c;
 }
 
-@media (min-width: 1001px) {
-  #gallery {
-    font-size: 2.5em;
-    max-height: none;
-  }
-}
 @media (max-width: 1000px) and (min-width:651px) {
   #gallery {
-    font-size: 2em;
+    font-size: 1.5em;
     }
 }
-@media (max-width: 650px) {
+@media (max-width: 650px) and (min-width:551px)  {
   #gallery {
     font-size: 1.3em;
     padding-top: 15%;
   }
 }
-@media (max-width: 450px) and (min-width:200px) {
+@media (max-width: 550px) and (min-width:250px) {
   #gallery {
-    font-size: 1.3em;
+    font-size: 0.8em;
     padding-top: 40%;
-  }
-}
-@media (max-width: 650px) {
-  #gallery {
-    font-size: 1.3em;
-    padding-top: 50%;
   }
 }
