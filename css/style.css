@@ -328,8 +328,38 @@ h6 {
   }
 }
 
-@media (max-width:800px) {
-  #overview h2 {
-    font-size: 1.7em;
+#gallery {
+  width: 100%;
+  background-image:url(https://ae01.alicdn.com/kf/HTB1Da.bNFXXXXa1aXXXq6xXFXXX2/12ft.jpg_640x640.jpg);
+  background-blend-mode: multiply;
+  background-color: : #000000;
+  background-size: cover;
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 3em;
+}
+
+#gallery h7 {
+  padding-top: 40%;
+  color: #3c3c3c;
+}
+
+@media (min-width: 1001px) {
+  #gallery {
+    font-size: 2.5em;
+    height: 1000px;
+  }
+}
+@media (max-width: 1000px) and (min-width:651px) {
+  #gallery {
+    font-size: 2em;
+    height: 600px;
+  }
+}
+@media (max-width: 650px) {
+  #gallery {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 400px;
   }
 }
