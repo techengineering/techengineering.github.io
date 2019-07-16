@@ -398,7 +398,6 @@ float: left;
   color: #4a4a4a;
 }
 }
-
 #partners {
     border-top: 2px solid #cccccc;
   float: left;
@@ -413,15 +412,47 @@ float: left;
 }
 #partners .card img {
   float:left;
-	max-width: 80px;
+	max-width: 40px;
 	margin-right: 50px;
   margin-bottom: 5px;
 }
 .card-title {
   font-size: 1.4em;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 .card-text {
   -webkit-font-smoothing:antialiased;
   font-size: 0.9em;
+    padding-bottom: 50px;
 }
+/* #partners {
+    border-top: 2px solid #cccccc;
+  float: left;
+ padding-bottom: 50px;
+  width: 100%!important;
+}
+ #partners p.caption {
+	font-size: 2rem;
+  width: 100%!important;
+  text-align:center;
+  padding-bottom: 50px;
+}
+#partners .card img {
+  float:left;
+	max-width: 50px;
+  padding-top: 100px;
+
+  margin-bottom: 5px;
+}
+.card-title {
+  padding-left: 50px;
+  font-size: 1.4em;
+  padding-bottom: 10px;
+}
+.card-text {
+  -webkit-font-smoothing:antialiased;
+  font-size: 0.9em;
+  padding-left: 50px;
+  padding-bottom: 50px;
+} */
