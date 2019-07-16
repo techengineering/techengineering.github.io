@@ -1,5 +1,4 @@
-ПЕНИС!
-@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito|Rubik&display=swap');
 * {
   margin:0px;
   padding:0px;
@@ -327,4 +326,14 @@ h6 {
     margin-left: 6%;
     float: left;
   }
+}
+
+#gallery {
+  background-image:url(https://ae01.alicdn.com/kf/HTB1Da.bNFXXXXa1aXXXq6xXFXXX2/12ft.jpg_640x640.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background: #ccc;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
 }
