@@ -229,6 +229,18 @@ h6 {
   padding-top: 30px;
   text-align: center;
 }
+@media (max-width:701px) {
+  #form_input textarea,#form_input input {
+    width: 60%!important;
+    margin-left: 2%;
+    float: left;
+  }
+}
+@media (max-width:701px) {
+#form_input label {
+  font-size: 1em;
+}
+}
 /* ответы и вопросы */
 #faq {
   background-color: #fff;
