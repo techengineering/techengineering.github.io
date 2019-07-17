@@ -109,16 +109,15 @@
 <div id="contacts">
   <center><h5>Обратная связь</h5>
   </center>
-  <form id="form_input">
-    <label for="name">Имя <span>*</span></label><br>
-    <input type="text" placeholder="Введите имя" name="name" id="name"><br>
-    <label for="email"> Ваш E-mail <span>*</span></label><br>
-    <input type="text" placeholder="Введите e-mail" name="email" id="email">
-    <label for="message">Сообщение <span>*</span></label><br>
-    <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
-    <div id="mess_send" class="btn">Отправить</div>
+  <form id="formaeba">
+    <p>Имя: <input id='first-name' class='indent' type='text' required name='first-name'><label for='first-name'></label></p>
+
+      <p>E-mail: <input id='email' class='indent' type='email' required name='email'><label for='email'></label></p>
+      <p>Телефон:<input id='tel' name="tel" type="tel" pattern="^\+7\d{3}\d{7}$" value="+7" maxlength="12"><label for='tel'></label></p>
+
+        <p><input type='submit'></p>
   </form>
- <br> <br><br><br> <h6>Можете оставить заявку на сайте или позвонить по номеру +7(918)22222222</h6>
+ <br> <br> <h6>Можете оставить заявку на сайте или позвонить по номеру +7(918)22222222</h6>
 </div>
 <div id="faq">
  <div>
