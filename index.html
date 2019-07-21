@@ -1,173 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-device, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Установка солнечных батарей, отопления и водопровода по Краснодарскому краю</title>
-      <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Инженерные работы, настройка автоматики и электрооборудования, установка солнечных батарей, водопровод, отопление.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logo.ico">
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
-  <header>
-    <div id="logo" onclick=back()>
-   <img src="img/logo.jpg" alt="">
-   <span>Handyman</span>
+ <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="img/logo100.png" alt="logo">
+      </div>
 
+      <input type="checkbox" id="menu-checkbox">
+      <nav role="navigation">
+      <label for="menu-checkbox" class="toggle-button"
+        data-open="Меню" data-close="Закрыть" onclick></label>
+      <ul class="main-menu">
+        <li><a href="#" onclick="slowScroll('#preim')">Преимущества</a></li>
+        <li><a href="#" onclick="slowScroll('#uslugi')">Услуги</a></li>
+        <li><a href="contacts.html" >Контакты</a></li>
+        <li><a href="#" onclick="slowScroll('#about')">О нас</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+      </ul>
+      </nav>
+    </div>
+ </header>
+<main>
+  <section class="top-slide" id="top">
+      <div class="top-container">
+      <div><h2>ВЫБИРАЯ НАС</h2></div><br>
+      <div><h2>ВЫ ВЫБИРАЕТЕ КАЧЕСТВО</h2></div><br>
+      <div><p>НАДЕЖНОСТЬ, ОПЫТ, ИНДИВИДУАЛЬНЫЙ ПОДХОД</p></div>
+      </div>
+  </section>
+  <section class="specialize" >
+    <div class="specialize-container" id="preim">
+      <h3>НАШИ ПРЕИМУЩЕСТВА</h3>
+      <p>Мы сопроводим и поможем Вам от самого первого звонка до окончания проекта</p>
+      <div class="specialize-cards">
+        <div class="card">
+           <div class="top-card">
 
-   </div>
+             <img  src="https://rychlik-catering.cz/wp-content/uploads/2016/10/logistics-delivery-truck-in-movement.svg" width="80" height="80" alt="">
 
-   <div id="about">
-  <a href='#' title="Возможности" onclick="slowScroll('#main')">Услуги</a>
-  <a href='#' onclick="slowScroll('#partners')" title="Преимущества">Преимущества</a>
-  <a href='#' onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
-  <a href='#' onclick="slowScroll('#faq')" title="Ответы на вопросы">О нас</a>
-  <a href='gallery.html' title="Галерея" onclick="slowScroll('#gallery')">Галерея</a>
+           </div>
+           <div class="midle-card">
+             <span>Надежность</span>
+           </div>
+           <div class="bottom-card">
+             <p class="first-p">Мы работаем уже более 15 лет <br>
+               на рынке электрооборудования <br>
+               и автоматизации.</p>
+           </div>
+        </div>
+        <div class="card">
+           <div class="top-card">
+             <img src="https://cdn3.iconfinder.com/data/icons/media-and-advertisement-solid-icons-vol-2/64/073-512.png" width="80" height="80" alt="">
+           </div>
+           <div class="midle-card">
+             <span>Индивидуальный подход</span>
+           </div>
+           <div class="bottom-card">
+             <p class="first-p">Лучшие условия: гибкость, <br>
+                   соблюдение сроков выполнения, <br>
+                   высокое качество</p>
+           </div>
+        </div>
+        <div class="card">
+           <div class="top-card">
+             <img src="https://steemitimages.com/DQmX441fxCJY59zSb9e9KNTdHssh9jqja88ZMw6LBrpsJxJ/Supply%20Chain%20ICON.png" width="80" height="80" alt="">
+           </div>
+           <div class="midle-card">
+             <span>Прямые поставки</span>
+           </div>
+           <div class="bottom-card">
+             <p class="first-p">Поставки электрооборудования, <br>
+                 комплектующих и материалов <br>
+                 от лучших производителей</p>
+           </div>
+        </div>
+        <div class="card">
+           <div class="top-card">
+             <img src="http://www.ecoweldproject.it/wp-content/uploads/2018/02/cert.png" width="80" height="80" alt="">
+           </div>
+           <div class="midle-card">
+             <span>Комплексные решения</span>
+           </div>
+           <div class="bottom-card">
+             <p class="first-p">Работая с нами, Вы получаете <br>
+                все : от поставки оборудования <br>
+                до реализации сложных задач</p>
+           </div>
+        </div>
+      </div>
+    </div>
 
-   </div>
-
-  </header>
-
-<div id="top">
- <h1> С нами любой проект</h1>
- <h3> станет вашим отдыхом! </h3>
+  </section>
+  <section class="uslugi" id="uslugi">
+    <div class="uslugi-container">
+       <h2>Наши услуги</h2>
+    </div>
+    <div class="uslugistolb">
+    <div class="img-usl">
+       <div class="ico">
+         <img class="ico-des" src="http://akvanik.ru/wp-content/uploads/2017/08/kanalizatsiya-ikonka.png" alt="">
+       </div>
+         <span>КАНАЛИЗАЦИЯ</span>
+       </div>
+       <div class="img-usl">
+          <div class="ico">
+            <img class="ico-des" src="https://img.icons8.com/ios-filled/100/000000/solar-panel.png" alt="">
+          </div>
+            <span>ГЕЛИОСИСТЕМЫ</span>
+          </div>
+          <div class="img-usl">
+             <div class="ico">
+               <img class="ico-des" src="http://akvanik.ru/wp-content/uploads/2017/08/otoplenie-ikonka.png" alt="">
+             </div>
+               <span>ОТОПЛЕНИЕ</span>
+             </div>
+              </div>
+                <div class="uslugistolb1">
+                <div class="img-usl">
+                   <div class="ico">
+                     <img class="ico-des" src="https://image.flaticon.com/icons/png/512/25/25009.png" alt="">
+                   </div>
+                     <span>ВОДОСНАБЖЕНИЕ</span>
+                   </div>
+                   <div class="img-usl">
+                      <div class="ico">
+                        <img class="ico-des" src="https://img.icons8.com/metro/452/heating-automation.png" alt="">
+                      </div>
+                        <span>АЛЬТЕРНАТИВНАЯ ЭНЕРГЕТИКА</span>
+                      </div>
+                   <div class="img-usl">
+                      <div class="ico">
+                        <img class="ico-des" src="https://api.icons8.com/download/11052ececd7e59bcfe069f07fcd179685592182b/Android_L/PNG/512/Very_Basic/services-512.png" alt="">
+                      </div>
+                        <span>АВТОМАТИЗАЦИЯ</span>
+                      </div>
+                         </div>
+            <div class="knopka">
+                <a href="#">Читать подробнее</a>
+            </div>
+  </section>
+  <section class="brand-slider" id="about">
+    <h4>НАШИ ПОСТАВЩИКИ</h4>
+    <p>Постоянные поставщики пополняются на протяжении 15 лет</p>
+    <div class="owl-carousel">
+      <div><img src="img/logo1.jpeg"></div>
+      <div><img src="img/logo1.jpg"></div>
+      <div><img src="img/logo2.jpg"></div>
+      <div><img src="img/logo3.png"></div>
+      <div><img src="img/logo7.jpg"></div>
+      <div><img src="img/logo6.jpg"></div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-container">
+  <div class="about-us"><h4>О нас</h4>
+  <p id="konec">Находимся на рынке уже 15 лет, имеем <br> огромный опыт в разработке и реализации <br>сложных технических проектов</p>
  </div>
-
-<div id="main">
-      <h2>Наши услуги помогут вам!</h2>
-    <div class="pho">
-      <img src="img/usl/01.jpg" alt="01.jpg">
-      <span>1usluga</span>
-      </div>
-      <div class="pho">
-      <img src="img/usl/02.jpg" alt="02.jpg">
-      <span>2usluga</span>
-      </div>
-      <div class="pho">
-      <img src="img/usl/03.jpg" alt="03.jpg">
-      <span>3usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/04.jpg" alt="04.jpg">
-      <span>4usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/05.jpg" alt="05.jpg">
-      <span>5usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/06.jpg" alt="06.jpg">
-      <span>6usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/07.jpg" alt="07.jpg">
-      <span>7usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/08.jpg" alt="08.jpg">
-      <span>8usluga</span></div>
-      <div class="pho">
-      <img src="img/usl/09.jpg" alt="09.jpg">
-      <span>9usluga</span></div>
-      <div class="pho" >
-      <img src="img/usl/10.jpg" alt="10.jpg">
-      <span>10usluga</span></div>
+  <div class="contacts"><h4>Контактная информация</h4>
+  <p><img src="http://cdn.onlinewebfonts.com/svg/img_200382.png" width="15" height="15" alt="">   8 (918) 2222222 <br>
+  <img src="http://image.flaticon.com/icons/png/512/260/260354.png" width="20" height="20" alt=""> shelestvalerii@mail.ru </p></div>
+  <div class="contacts"><h4>Мы в социальных сетях</h4>
+  <p><img src="http://www.iconarchive.com/download/i91649/icons8/windows-8/Social-Networks-Instagram.ico" width="20" height="20" alt=""> shelest.valerii93 <br>
+  <img src="https://png.icons8.com/windows/1600/whatsapp.png" width="20" height="20" alt="">8 (918) 2222222 <br>
+<img src="https://regnum.ru/uploads/pictures/news/2018/06/29/regnum_picture_153024185047798_big.png"  width="20" height="20" alt=""> 8 (918) 2222222</p></div>
   </div>
-  <section id="partners">
-  				<p class="caption">Выбирая нас, вы получаете:</p>
-        <div class="block">
-  				<div class="card flex-sm-row">
-  					<img class="card-img" src="https://rychlik-catering.cz/wp-content/uploads/2016/10/logistics-delivery-truck-in-movement.svg" alt="*">
-  					<div class="card-body">
-  						<h4 class="card-title">Надежность</h4>
-  						<p class="card-text">Мы работаем уже более 15 лет на рынке электрооборудования и автоматизации. Богатый опыт работы с ведущими поставщиками и производителями России и зарубежья.</p>
-  					</div>
-  				</div>
-        </div>
-          <div class="block">
-  				<div class="card flex-sm-row">
-  					<img class="card-img" src="https://cdn3.iconfinder.com/data/icons/media-and-advertisement-solid-icons-vol-2/64/073-512.png" alt="*">
-  					<div class="card-body">
-  						<h4 class="card-title">Индивидуальный подход</h4>
-  						<p class="card-text">Лучшие условия для наших клиентов, гибкость, безоговорочное соблюдение сроков выполнения и неизменно высокое качество производимых работ.</p>
-  					</div>
-  				</div>
-          </div>
-          <div class="block">
-        <div class="card flex-sm-row">
-          <img class="card-img" src="https://steemitimages.com/DQmX441fxCJY59zSb9e9KNTdHssh9jqja88ZMw6LBrpsJxJ/Supply%20Chain%20ICON.png" alt="*">
-          <div class="card-body">
-            <h4 class="card-title">Прямые поставки</h4>
-            <p class="card-text">Поставки электрооборудования и оборудования для автоматизации, комплектующих для вышеуказанного оборудования от лучших производителей.</p>
-          </div>
-        </div>
-        </div>
-            <div class="block">
-  				<div class="card flex-sm-row">
-  					<img class="card-img" src="http://www.ecoweldproject.it/wp-content/uploads/2018/02/cert.png" alt="*">
-  					<div class="card-body">
-  						<h4 class="card-title">Комплексные решения</h4>
-  						<p class="card-text">Работая с нами, Вы получаете команду профессионалов, предлагающую комплексные решения от поставки оборудования до реализации сложных проектов.</p>
-  					</div>
-  				</div>
-          </div>
-        </section>
-<div id="contacts">
-  <center><h5>Обратная связь</h5>
-  </center>
-  <form id="formaeba">
-    <p>Имя: <input id='first-name' class='indent' type='text' required name='first-name'><label for='first-name'></label></p>
-
-      <p>E-mail: <input id='email' class='indent' type='email' required name='email'><label for='email'></label></p>
-      <p>Телефон:<input id='tel' name="tel" type="tel" pattern="^\+7\d{3}\d{7}$" value="+7" maxlength="12"><label for='tel'></label></p>
-
-        <p><input type='submit'></p>
-  </form>
- <br> <br> <h6>Можете оставить заявку на сайте или позвонить по номеру +7(918)22222222</h6>
-</div>
-<div id="faq">
- <div>
-   <span class="title">Оплата</span><br>
-   <span class="heading">Как будет проходить оплата?</span>
-   <p>bbbbbb</p>
-   <span class="heading">Как будет проходить оплата?</span>
-   <p>bbbbbb</p>
-   <span class="heading">Как будет проходить оплата?</span>
-   <p>bbbbbb</p>
- </div>
- <div>
-   <span class="title">Информация</span><br>
-   <span class="heading">Что входит в услуги сервиса?</span>
-   <p>aaaaaa ksjdsvfdva</p>
-   <span class="heading">Что входит в услуги сервиса?</span>
-   <p>aaaaaa ksjdsvfdva</p>
-   <span class="heading">Что входит в услуги сервиса?</span>
-   <p>aaaaaa ksjdsvfdva</p>
- </div>
- <div>
-   <span class="title">Гарантия</span><br>
-   <span class="heading">Какие есть гарантии?</span>
-   <p>kkkkkk nfbndjbrj</p>
-   <span class="heading">Какие есть гарантии?</span>
-   <p>kkkkkk</p>
-   <span class="heading">Какие есть гарантии?</span>
-   <p>kkkkkk</p>
- </div>
-
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script>
-  function slowScroll(id){
-    $('html,body').animate({
-      scrollTop: $(id).offset().top
-    },500);
-  }
-
-  $(document).on("scroll",function() {
-    if($(window).scrollTop() === 0 )
-     $("header").removeClass("fixed");
-     else
-     $("header").attr("class","fixed");
-  })
-  function back() {
-    window.location="index.html"
-  }
-    </script>
-
+</footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+function slowScroll(id){
+  $('html,body').animate({
+    scrollTop: $(id).offset().top
+  },300);
+}
+
+$(document).on("scroll",function() {
+  if($(window).scrollTop() === 0 )
+   $("header").removeClass("fixed");
+   else
+   $("header").attr("class","fixed");
+})
+function back() {
+  window.location="index.html"}
+
+
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    items:5,
+    autoplay:true,
+    autoplayTimeout:2000,
+    margin:15
+  });
+});
+
+if($(window).width() < 420 ) {
+    $(".owl-carousel").owlCarousel({
+      items:4,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout:2000,
+      margin:10
+     });
+}
+  </script>
+
+
 </html>
