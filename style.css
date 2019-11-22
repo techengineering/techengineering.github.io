@@ -1,6 +1,7 @@
 body{
     background-image:url(bg.jpg);
     background-size: 100%;
+    position: fixed;
 }
 
 p{
@@ -42,9 +43,11 @@ h1{
 
 #canvas{
     background-color: burlywood;
+    position: fixed;
 }
 
 #canvas-block{
     margin-left: -250px;
     padding-left: 50%;
+    position: fixed;
 }
