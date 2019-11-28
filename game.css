@@ -1,0 +1,69 @@
+
+body {
+  margin-top: 40px;
+}
+
+#stats {
+  margin: 20px;
+  width: 300px;
+  float: left;
+}
+
+#stats ul li {
+   list-style: none;
+   padding: 10px;
+}
+
+#stats ul ul {
+   padding: 0px;
+   margin-top: 10px;
+}
+
+#stats ul ul li {
+    padding: 0px;
+}
+
+#stats ul li .option-title {
+   font-weight: bold;
+}
+
+
+
+#board {
+   background-image: url(https://bigbehoof.com/themes/bb/img/skin-ocean.jpg);
+   background-position: center;
+   background-repeat: no-repeat; 
+   background-size: cover;
+   width: 100%;
+}
+
+
+.dark {
+   background-color: rgba(122, 106, 14, 0.658);
+}
+
+.light {
+   background-color: #eee;
+}
+
+#board table {
+    font-size: 36px;
+    width: 70%;
+    height: 90%;
+    align: center;
+    text-align: center;
+	margin: 0px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+#board table tr td {
+    height: 12.5%;
+	width: 12.5%;
+}
+
+td.hover {
+   background-color: lightblue;
+}
+
+
